@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 import streamlit as st
 import torchvision.transforms as transforms
-from models import Rnn3D, Model_Improved
+from models import Rnn3D
 
 # original model
 model = Rnn3D()
