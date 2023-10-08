@@ -9,7 +9,7 @@ from models import Rnn3D
 
 # original model
 model = Rnn3D()
-model.load_state_dict(torch.load('./new_model_torch.pt', map_location = 'cpu'))
+model=torch.load('new_model_torch.pt')
 
 
 
